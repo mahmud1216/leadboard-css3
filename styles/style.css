@@ -126,6 +126,10 @@ hr {
   height: 104px;
 }
 
+.course-title {
+  font-weight: 500;
+}
+
 .course-author {
   color: #ed6b4f;
 }
