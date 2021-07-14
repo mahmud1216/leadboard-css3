@@ -1,0 +1,157 @@
+/******************************   FONTS   ******************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+
+/******************************   Base Style/ Common Style/ Utilities   ******************************/
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f1ff;
+}
+
+/******************************   Top Player Style   ******************************/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 21px;
+}
+
+hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 19px;
+}
+
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+  margin-top: 3px;
+}
+
+.top-players {
+  margin-bottom: 30px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+
+.player h3 {
+  font-weight: 500;
+}
+
+.player-name {
+  margin-left: 16px;
+}
+
+/******************************   Top Blogs Style   ******************************/
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+
+.blog {
+  display: flex;
+  width: 357px;
+  height: 117px;
+}
+
+.thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+
+.blog-info {
+  margin-left: 16px;
+}
+
+.blog-info h3 {
+  margin: 0;
+  width: 197px;
+  height: 68px;
+  font-weight: 500;
+}
+
+.blog-info p {
+  margin-top: 6px;
+  color: #9f9f9f;
+  font-size: 16px;
+}
+
+.blog-info a {
+  text-decoration: none;
+  color: #562eff;
+  font-size: 16px;
+}
+
+/******************************   Courses Style   ******************************/
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+
+.course {
+  width: 220px;
+  height: 270px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 13px 5px rgba(0, 0, 0, 0.05);
+}
+
+.course-banner img {
+  width: 224px;
+  height: 104px;
+}
+
+.course-author {
+  color: #ed6b4f;
+}
+
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 227px;
+}
+
+.fa-star {
+  font-size: 12px;
+}
+
+.fa-star.filled {
+  color: #ffc014;
+}
+
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+.course-duration {
+  background-color: #ffe4e8;
+  color: #ed6b4f;
+  border-radius: 70px;
+  padding: 2px 7px;
+}
